@@ -1,9 +1,9 @@
 library(tuneR)#For reading/writing .wav files
 library(fastICA)#For computing ICA
 
-w1=readWave(filename="001101000mix1.wav")
-w2=readWave(filename="001101000mix2.wav")
-w3=readWave(filename="001101000mix3.wav")
+w1=readWave(filename="Data/001101000mix1.wav")
+w2=readWave(filename="Data/001101000mix2.wav")
+w3=readWave(filename="Data/001101000mix3.wav")
 rawrate=8000;rawbit=8
 
 
